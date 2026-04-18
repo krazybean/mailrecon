@@ -20,10 +20,11 @@ pip install mailrecon
 
 ## Usage
 
-Validate a single email:
+### Single email
 
 ```bash
-mailrecon validate email@yahoo.com
+mailrecon validate user@yahoo.com
+mailrecon validate user@gmail.com
 ```
 
 Validate multiple emails:
@@ -41,7 +42,7 @@ mailrecon validate --file emails.txt
 Get JSON output:
 
 ```bash
-mailrecon validate --json email@yahoo.com
+mailrecon validate --json user@gmail.com
 ```
 
 Module execution is also supported:
@@ -64,7 +65,7 @@ JSON output:
 ```json
 [
   {
-    "email": "email@yahoo.com",
+    "email": "user@gmail.com",
     "status": "exists"
   }
 ]
@@ -88,4 +89,5 @@ print(status)
 ## Notes
 
 - Validation is provider-specific and only works for supported domains.
+- Different providers use different validation strategies. Some providers, like Yahoo, use deeper validation flows, while others may return results more directly.
 - Live validation can return `unknown` when a provider changes behavior or blocks requests.
