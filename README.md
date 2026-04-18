@@ -1,3 +1,7 @@
+[![PyPI version](https://img.shields.io/pypi/v/mailrecon.svg)](https://pypi.org/project/mailrecon/)
+[![Python versions](https://img.shields.io/pypi/pyversions/mailrecon.svg)](https://pypi.org/project/mailrecon/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 # mailrecon
 
 Detect whether an email account exists across providers.
