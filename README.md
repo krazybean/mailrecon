@@ -1,10 +1,11 @@
-[![PyPI version](https://img.shields.io/pypi/v/mailrecon.svg)](https://pypi.org/project/mailrecon/)
-[![Python versions](https://img.shields.io/pypi/pyversions/mailrecon.svg)](https://pypi.org/project/mailrecon/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/mailrecon)](https://pypi.org/project/mailrecon/)
+![Python](https://img.shields.io/badge/python-3.8%2B-blue?logo=python&logoColor=white)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/mailrecon)
 
 # mailrecon
 
-Detect whether an email account exists across providers.
+Detect whether an email account exists using real provider validation flows (CLI tool)
 
 ## Features
 

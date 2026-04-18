@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mailrecon"
-version = "0.1.0"
-description = "Email account existence validation tool"
+version = "0.1.1"
+description = "Detect whether an email account exists using provider-level validation flows"
 authors = [{ name = "krazybean" }]
 readme = "README.md"
 requires-python = ">=3.9"
+keywords = ["email", "validation", "osint", "cli", "security"]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
